@@ -70,7 +70,6 @@ void printlist(list *l) {
         printf("%d -> ", t->info);
         t = t->next;
     }
-    printf("NULL\n");
 }
 
 void dellist(list *l, int v) {
